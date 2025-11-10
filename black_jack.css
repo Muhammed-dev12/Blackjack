@@ -1,0 +1,61 @@
+body
+{
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #016f32;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dotted
+{
+    border: 3px dotted yellow;
+}
+
+.container
+{
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.container h1
+{
+    color: goldenrod;
+    font-size: 50px;
+}
+
+.container h3
+{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.container h5
+{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.container button{
+    width: 250px;
+    height: 40px;
+    padding: 5px 16px;
+    border: none;
+    background: goldenrod;
+    color: #016f32;
+    font-size: 18px;
+    border-radius: 3px;
+    margin: 5px 0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.container p
+{
+    font-size: 20px;
+    color: #fff;
+}
